@@ -20,7 +20,7 @@ parser = argparse.ArgumentParser(description = text)
 
 jobIds = arr.array('i')
 
-parser.add_argument("-f", "--filex", help="The Fasta file")
+parser.add_argument("-f", "--filex", help="The input file")
 parser.add_argument('-fasta', action='store_const', dest='fasta',const='1',help='convert 2 fasta option, for convert to fasta, remove for convert to phylip')
 parser.add_argument("-o", "--output", help="the output file")
 
