@@ -13,7 +13,7 @@ import array as arr
 
 import argparse
 
-text = "===================\nConvert Fasta to Phylip file\n===================="
+text = "===================\nConvert Alignment file\n===================="
 
 parser = argparse.ArgumentParser(description = text)  
 #parser.parse_args()  
